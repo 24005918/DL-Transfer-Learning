@@ -250,34 +250,11 @@ predict_image(model, image_index=25, dataset=test_dataset)
 <img width="594" height="643" alt="image" src="https://github.com/user-attachments/assets/d7535ce7-e14c-4af9-9baa-ab2dcb8d68df" />
 
 ## Confusion Matrix
-
 <img width="544" height="502" alt="image" src="https://github.com/user-attachments/assets/8bd59811-3c16-4cfc-b68f-190454ea96a9" />
-
 ## Classification Report
-
 <img width="409" height="182" alt="image" src="https://github.com/user-attachments/assets/d01e795c-a6f8-48a6-b50a-f12e4073ba5d" />
-
-
 ### New Sample Data Prediction
-
 <img width="668" height="809" alt="image" src="https://github.com/user-attachments/assets/35b71784-aabc-4da4-9c9a-1b36f6332ed5" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## RESULT
 
 Thus the python program to develop an image classification model using transfer learning with VGG19 architecture is executed successfully.
