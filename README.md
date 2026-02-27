@@ -6,44 +6,26 @@ To develop an image classification model using transfer learning with VGG19 arch
 ## Problem Statement and Dataset
 Include the problem statement and Dataset
 
-
 ## Neural Network Model
 Include the neural network model diagram.
-
 ## DESIGN STEPS
 ### STEP 1: 
-
 Import required libraries and define image transforms.
 
-
 ### STEP 2: 
-
 Load training and testing datasets using ImageFolder.
-
-
 ### STEP 3: 
-
 Visualize sample images from the dataset.
-
 ### STEP 4: 
-
 Load pre-trained VGG19, modify the final layer for binary classification, and freeze feature extractor layers.
-
 ### STEP 5: 
-
 Define loss function (BCEWithLogitsLoss) and optimizer (Adam). Train the model and plot the loss curve.
-
 ### STEP 6: 
-
 Evaluate the model with test accuracy, confusion matrix, classification report, and visualize predictions.
 
-
 ## PROGRAM
-
 ### Name: SANTHOSH V
-
 ### Register Number: 212224230252
-
 ```python
 import torch
 import torch.nn as nn
@@ -245,7 +227,7 @@ predict_image(model, image_index=25, dataset=test_dataset)
 <img width="544" height="502" alt="image" src="https://github.com/user-attachments/assets/8bd59811-3c16-4cfc-b68f-190454ea96a9" />
 ## Classification Report
 <img width="409" height="182" alt="image" src="https://github.com/user-attachments/assets/d01e795c-a6f8-48a6-b50a-f12e4073ba5d" />
-### New Sample Data Prediction
+## New Sample Data Prediction
 <img width="668" height="809" alt="image" src="https://github.com/user-attachments/assets/35b71784-aabc-4da4-9c9a-1b36f6332ed5" />
 ## RESULT
 Thus the python program to develop an image classification model using transfer learning with VGG19 architecture is executed successfully.
